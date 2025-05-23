@@ -1,232 +1,71 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DJ STEVEN | Página Oficial</title>
+    <title>DJ STEVEN | Inici</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
+    <header>
+        <div class="header-top">
+            <div class="branding">
+                <img src="images/logodj.jpg" alt="DJ STEVEN Logo" class="logo">
                 <h1>DJ STEVEN</h1>
             </div>
-            <nav class="main-nav">
-                <div class="menu-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="active">Inicio</a></li>
-                    <li><a href="biografia.html">Biografía</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
+            
+            <div class="search-nav-container">
+                <form class="search-form" action="/search" method="GET">
+                    <input type="text" placeholder="¿Que estas buscando?" name="query">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                
+                <nav>
+                    <div class="hamburger"><i class="fas fa-bars"></i></div>
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="active"><i class="fas fa-home"></i> Inici</a></li>
+                        <li><a href="about.html"><i class="fas fa-user"></i> Qui som</a></li>
+                        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contacte</a></li>
+                        <li><a href="#"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
+    <main>
+        <section class="hero">
             <div class="hero-content">
-                <h2 class="animated-text">LA MÚSICA MUEVE EL MUNDO</h2>
-                <p> Experiencia unica con el unico que puede</p>
-                <a href="#eventos" class="btn">PRÓXIMOS SHOWS</a>
+                <h2>Musica que solo la mezcla el verdadero</h2>
+                <button class="cta-button">PROXIMOS EVENTOS</button>
             </div>
-        </div>
-        <div class="wave-container">
-            <div class="wave"></div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Últimas Novedades -->
-    <section class="releases" id="novedades">
-        <div class="container">
-            <h2 class="section-title">ÚLTIMOS LANZAMIENTOS</h2>
-            <div class="release-grid">
-                <article class="release-card">
-                    <div class="release-img">
-                        <img src="https://via.placeholder.com/300x300" alt="">
-                        <div class="play-overlay">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="release-info">
-                        <h3>VAMOS SUBIENDO</h3>
-                        
-                        <p>EP - 2017</p>
-                    </div>
-                </article>
-                <article class="release-card">
-                    <div class="release-img">
-                        <img src="https://via.placeholder.com/300x300" alt="">
-                        <div class="play-overlay">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="release-info">
-                        <h3>The Revolution</h3>
-                        <p>Album - 2024</p>
-                    </div>
-                </article>
-                <article class="release-card">
-                    <div class="release-img">
-                        <img src="https://via.placeholder.com/300x300" alt="">
-                        <div class="play-overlay">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="release-info">
-                        <h3>La SaNgRe NuEvA</h3>
-                        <p>comming soon</p>
-                    </div>
-                </article>
+        <section class="events">
+            <h2>Pròxims Events</h2>
+            <div class="event-grid">
+                <div class="event-card">
+                    <img src="images/event1.jpg" alt="Event 1">
+                    <h3>Festival d'Estiu</h3>
+                    <p>15 Juliol 2023</p>
+                </div>
+                <!-- Más eventos... -->
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Próximos Eventos -->
-    <section class="events" id="eventos">
-        <div class="container">
-            <h2 class="section-title">PRÓXIMOS EVENTOS</h2>
-            <div class="events-list">
-                <article class="event-card">
-                    <div class="event-date">
-                        <span class="day">23-24</span>
-                        <span class="month">JUL</span>
-                    </div>
-                    <div class="event-info">
-                        <h3>Reggaeton Beach Festival 2025</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Parc del Fòrum, Barcelona</p>
-                        <a href="https://reggaetonbeachfestival.com/es/festivales/summer/barcelona" class="btn btn-small">COMPRAR ENTRADAS</a>
-                    </div>
-                </article>
-                <article class="event-card">
-                    <div class="event-date">
-                        <span class="day">4</span>
-                        <span class="month">JUL</span>
-                    </div>
-                    <div class="event-info">
-                        <h3>Concierto Jombriel</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Sala Atlantic, Barcelona</p>
-                        <a href="#" class="btn btn-small">COMPRAR ENTRADAS</a>
-                    </div>
-                </article>
-                <article class="event-card">
-                    <div class="event-date">
-                        <span class="day">03</span>
-                        <span class="month">AGO</span>
-                    </div>
-                    <div class="event-info">
-                        <h3>Fiesta de la Independencia Ecuatoriana</h3>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Parc del Fòrum, Barcelona</p>
-                        <a href="#" class="btn btn-small">COMPRAR ENTRADAS</a>
-                    </div>
-                </article>
-            </div>
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-soundcloud"></i></a>
+            <a href="#"><i class="fab fa-spotify"></i></a>
         </div>
-    </section>
-
-
-    <!-- Contacto -->
-    <section class="contact" id="contacto">
-        <div class="container">
-            <h2 class="section-title">CONTACTO</h2>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>¿Quieres contratarme?</h3>
-                    <p>Completa el formulario o contacta directamente:</p>
-                    <ul class="contact-details">
-                        <li><i class="fas fa-envelope"></i> booking@djmaster.com</li>
-                        <li><i class="fas fa-phone"></i> +34 612 345 678</li>
-                    </ul>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-spotify"></i></a>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">ENVIAR</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h2>DJ STEVEN</h2>
-                    <p>La música es mi pasión</p>
-                </div>
-                <div class="footer-links">
-                    <h3>Enlaces</h3>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="biografia.html">Biografía</a></li>
-                        <li><a href="eventos.html">Eventos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer-subscribe">
-                    <h3>Suscríbete</h3>
-                    <p>Recibe novedades y fechas de conciertos</p>
-                    <form class="subscribe-form">
-                        <input type="email" placeholder="Tu email">
-                        <button type="submit" class="btn btn-small">OK</button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 DJ STEVEN. Todos los derechos reservados.</p>
-            </div>
-        </div>
+        <p>&copy; 2023 DJ STEVEN. Tots els drets reservats.</p>
     </footer>
 
-    <script>
-        // Menú Responsive
-        document.querySelector('.menu-toggle').addEventListener('click', function() {
-            this.classList.toggle('active');
-            document.querySelector('.nav-menu').classList.toggle('active');
-        });
-
-        // Animaciones al hacer scroll
-        window.addEventListener('scroll', function() {
-            const elements = document.querySelectorAll('.release-card, .event-card, .gallery-item');
-            elements.forEach(element => {
-                const position = element.getBoundingClientRect().top;
-                const screenPosition = window.innerHeight / 1.3;
-                
-                if (position < screenPosition) {
-                    element.classList.add('appear');
-                }
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

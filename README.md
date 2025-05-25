@@ -57,4 +57,8 @@ Ahora nos vamos a la parte de abajo de la web, ya que todas las secciones tienen
 - Y pues asi quedarà:
 ![Esquema 4](https://drive.google.com/uc?export=view&id=1IwEg8m6Exdh35qxrAcytocFlgfaG1I7C)
 
+En el archivo `styles.css`, he utilizado los siguientes colores:
+- Negro azulado: Utilicé este color de fondo para que contraste bien con los demás colores y también este color da un ambiente nocturno, como si fuera un noche de discoteca, entonces pega con el concepto.
+- 
+
 

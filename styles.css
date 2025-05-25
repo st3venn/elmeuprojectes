@@ -16,7 +16,7 @@ body {
     color: var(--secondary);
 }
 
-/* Header */
+/* Cabecera */
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -120,7 +120,6 @@ nav a:hover, nav a.active {
     cursor: pointer;
 }
 
-/* Hero section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(15, 14, 23, 0.7)), 
                 url('../images/fondo.jpeg');
@@ -139,7 +138,7 @@ nav a:hover, nav a.active {
     animation: fadeIn 2s;
 }
 
-/* Nuevo estilo para el botón CTA - Diseño mejorado */
+/* BOTON DE PROXIMOS EVENTOS */
 .cta-button {
     padding: 16px 42px;
     font-size: 1.2rem;
@@ -226,7 +225,7 @@ nav a:hover, nav a.active {
     animation: none;
 }
 
-/* Responsive */
+/* Diseño para que se adapte a cualquier pantalla */
 @media (max-width: 992px) {
     .header-top {
         flex-direction: column;

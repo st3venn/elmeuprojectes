@@ -1,4 +1,4 @@
-# elmeuprojectes
+# PAGINA DJ STEVEN
 Esta es mi pagina web, trata sobre mi siendo DJ, a continuación, os explicaré como he hecho esta pagina web.
 ##
 He escogido este tema, porque ser DJ es algo que siempre he aspirado ser en un futuro, ya como professión o como hobbie y aprovechando este proyecto pues me he lanzado a realizar la pagina web sobre ello, asi puedo coger ideas desde ahora y en un futuro pues mejorar y seguir avanzando.
@@ -71,6 +71,44 @@ De efectos visuales, he utilizado varios, asi poder hacer que los usuarios no se
 - Cuando accedan a la pagina a través de una pantalla más pequeña, he puesto en el modo `hamburguesa` que la cabecera se convierta en un logo de opciones para que desde ahi puedan acceder a las diferentes secciones.
 - Queria que mi imagen mezclando, no se viera una imagen siemple y sin gracia, asi que puse la imagen con una animación que se viera como si salta , asi se puede dar más dinamismo a la web.
 ##
+
+La decisión de este diseño, la he tomado a través de visitar algunas webs de lugares de ocio nocturno, y vi que la mayoria tienen el mismo concepto, relaciona el diseño de la web con la professión. La tipografia, he tenido que buscar la que mejor quede adaptada al diseño , ya que si pongo una muy simple, no quedaba bien.
+También paara que se vea un poco más divertido, puse logos en zonas donde de verdad vi la necesidad de ponerlos.
+
+A la hora de hacer el layout, puse esa estructura porque la mayoria de paginas web tienen el mismo diseño y entonces para que los usuarios capten todo desde el momento que acceden, lo puedan hacer tranquilos.
+
+Cuando realize el menú hamburguesa, tenia que tener en cuenta la medida de cada panatalla, asi que puse un tamaño más o menos standard para que no se vea mal pero con su misma proporción.
+
+Quise que los usuarios no se tengan que complicar tanto si quieren comprar una entrada a qualuqier evento, asi que en la pagina `eventos` en los botones estan incrustados links que dirigen directamente a la pagina, asi tienen más accesibilidad.
+##
+
+Con todo esto, finalmente mi pagina web quedó como la verdad lo esperé y muestro a continuación el resultado:
+
+### Pagina principal
+![image](https://github.com/user-attachments/assets/1b49268b-f9f3-45a0-8d1f-a6c0776ac5e1)
+
+## SECCIÓN QUIEN SOY
+![image](https://github.com/user-attachments/assets/430ea106-ecac-4356-9578-6985565c323e)
+
+![image](https://github.com/user-attachments/assets/e681716e-e6d1-4622-aacc-62456fd8c898)
+
+![image](https://github.com/user-attachments/assets/f4a97210-b461-47b9-bf0d-5beda925f2dd)
+
+## SECCIÓN CONTACTO
+![image](https://github.com/user-attachments/assets/8887a487-c0bc-4795-9a24-b91c4da35e05)
+
+## SECCIÓN EVENTOS
+![image](https://github.com/user-attachments/assets/2301e4e7-9a7e-4b3b-b2c7-522ed97d2f16)
+##
+[](https://st3venn.github.io/elmeuprojectes/index.html)
+
+Y pues esta es mi pagina web, agradezco hacer esto ya que me ha inspirado más a conseguir lo que quiero para poder dedicarme a lo que realmente me gusta.
+
+
+
+
+
+
 
 
 

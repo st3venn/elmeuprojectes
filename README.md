@@ -20,7 +20,7 @@ Para realizar esta pagina web utilizé: `HTML5` , `CSS` y `JavaScript`.
 ##
 
 ## Estructura de layout
-Lo he oganizado de la siguiente manera:
+Lo he organizado de la siguiente manera:
 - En la parte de la cabecera, en el lateral derecho he puesto un logo y al lado mi nombre `DJ STEVEN`
 - Seguido de ahi, en el centro de la cabecera he puestro un buscador para los que quieran buscar una cosa en concreto.
 - En el lateral izquierdo, he puesto un total de 4 secciones, `inicio`, `Quien soy`, `Contacto` y `Eventos`.
@@ -57,8 +57,20 @@ Ahora nos vamos a la parte de abajo de la web, ya que todas las secciones tienen
 - Y pues asi quedarà:
 ![Esquema 4](https://drive.google.com/uc?export=view&id=1IwEg8m6Exdh35qxrAcytocFlgfaG1I7C)
 
+##
+
 En el archivo `styles.css`, he utilizado los siguientes colores:
-- Negro azulado: Utilicé este color de fondo para que contraste bien con los demás colores y también este color da un ambiente nocturno, como si fuera un noche de discoteca, entonces pega con el concepto.
-- 
+- **Negro azulado**: Utilicé este color de fondo para que contraste bien con los demás colores y también este color da un ambiente nocturno, como si fuera un noche de discoteca, entonces pega con el concepto.
+- **Naranja**: En los botones, he puesto este color de forma intensa y llamativa porque asi llama la atención a las personas.
+- **Blanco**: Este color lo utilicé para el texto, ya que al ser un fondo oscuro la letra tiene que ser bien vista a los usuarios.
+- **Rosa**: Lo he puesto en el botón de `PROXIMOS EVENTOS` y en `DJ STEVEN` de la cabecera como una difuminación, ya que esos dos colores combinan perfecto.
+  
+## 
+De efectos visuales, he utilizado varios, asi poder hacer que los usuarios no se sientan aburridos a la hora de navegar en la pagina web.
+- En el botón `PRÓXIMOS EVENTOS` cuando acercas el cursor he puesto que se haga un tamaño más grande para que el usuario sepa que se puede clicar y se sienta como un botón real. En los botones de las secciones, he puesto lo mismo, solo que un poco más simple, sin animaciones solo un cambio de color.
+- Cuando accedan a la pagina a través de una pantalla más pequeña, he puesto en el modo `hamburguesa` que la cabecera se convierta en un logo de opciones para que desde ahi puedan acceder a las diferentes secciones.
+- Queria que mi imagen mezclando, no se viera una imagen siemple y sin gracia, asi que puse la imagen con una animación que se viera como si salta , asi se puede dar más dinamismo a la web.
+##
+
 
 
